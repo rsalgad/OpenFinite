@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Domains">
+      <UniqueIdentifier>{78d8afe3-5ae0-4108-ae9d-06ba64e32810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Domains">
+      <UniqueIdentifier>{0bbaeeb2-2f3d-434e-b0f5-bc26248021e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structural Elements">
+      <UniqueIdentifier>{12df51d0-5033-439c-9f47-c9e20ac8ef0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structural Elements">
+      <UniqueIdentifier>{7baac1a0-eb27-4481-bcb1-7650c1ec3aad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Element_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Material_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Node_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Section_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangular_section.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Section.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Beam_column_element.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Displacement_boundary.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Force_boundary.cpp">
+      <Filter>Source Files\Structural Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure_domain.cpp">
+      <Filter>Source Files\Domains</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Analysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Element_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Node_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Section_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangular_section.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Section.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Displacement_boundary.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Force_boundary.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Beam_column_element.h">
+      <Filter>Header Files\Structural Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure_domain.h">
+      <Filter>Header Files\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Analysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
